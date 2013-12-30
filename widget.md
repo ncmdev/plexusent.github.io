@@ -22,7 +22,7 @@ Off the shelf, the widget injects the WatchIt and a Queue buttons onto the page.
 * Tracking: We track aggregate status, such as how many users saw a button, vs how many clicked on it. We can also track things like which providers the users clicked on, and even if they purchased something. If users queue a movie, get a notification months later, and purchase that film, we can track the origin of that transaction back to your website. 
 
 
-*SCREEN SHOT HERE*
+![example widget](screenshots/widgetOnSite.png)
 
 ### Buttons
 The Watch It button will launch the lightbox. The Queue button--if a user is logged into GWI--will automatically add the movie to a users queue without displaying the lightbox. If the user is not logged in, the Queue button will also launch the lightbox. 
@@ -49,8 +49,15 @@ The Javascript embed code will look something like this:
 ```
 
 ### Customizing the layout. 
+By default the widget will have an orange "Watch It" button on top of a yellow "Queue It" button, as seen here:
 
-- If you add `&horizontal` to the end of the Javascript URL, you can a side-by-side version of the widget:
+![regular button](/screenshots/regularstackedbutton.jpg)
+
+#### Horizontal Layout
+If you add `&horizontal` to the end of the Javascript URL, you can a side-by-side version of the widget:
+
+![horizontal button](/screenshots/horizontalbutton.jpg)
+
 
 ```
     <script type="text/javascript" language="javascript" 
@@ -58,13 +65,14 @@ The Javascript embed code will look something like this:
     </script>
 ```
 
-- Using custom image themes. You can supply your own css to replace the images used in the buttons, which are actually just background CSS images. (We can supply you with the original PSD to base your own images off of). There are three button images: Watchit, Queue It, and In Queue. The first two should have a "hover" state image as well, to indicate clickability.
+#### Custom Image Themes
 
-*SCREEN SHOT*
+You can supply your own css to replace the images used in the buttons, which are actually just background CSS images. (We can supply you with the original PSD to base your own images off of). There are three button images: Watchit, Queue It, and In Queue. The first two should have a "hover" state image as well, to indicate clickability.
+
+![Custom CSS button](/screenshots/customCSS.png) ![Custom CSS button in queue](/screenshots/customCSSinqueue.png)
 
 Using the below CSS as a template you can replace the default button image with your own. For example: 
 
-*SCREEN SHOT*
 
 ```
     .watchit_container .watchit_button {
@@ -89,8 +97,9 @@ Using the below CSS as a template you can replace the default button image with 
 
 
 
-## Using standard Javascript include and ID.
-This method is more powerful than pasting embedded links. You can, for example, deploy this in a template in a CMS and have a button appear in the same place for different movies on different pages. 
+## Using standard Javascript include and ID
+
+This method is more powerful than pasting embedded links. You can, for example, deploy this in one template of a CMS and have a button appear in the same place for different movies on different pages. 
 
 You include a piece of HTML, a standard Javascript snippet, and programatically pass the ID of the movie to the widget. 
 
