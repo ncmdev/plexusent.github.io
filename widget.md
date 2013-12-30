@@ -22,7 +22,7 @@ Off the shelf, the widget injects the WatchIt and a Queue buttons onto the page.
 * Tracking: We track aggregate status, such as how many users saw a button, vs how many clicked on it. We can also track things like which providers the users clicked on, and even if they purchased something. If users queue a movie, get a notification months later, and purchase that film, we can track the origin of that transaction back to your website. 
 
 
-**SCREEN SHOT HERE**
+*SCREEN SHOT HERE*
 
 ### Buttons
 The Watch It button will launch the lightbox. The Queue button--if a user is logged into GWI--will automatically add the movie to a users queue without displaying the lightbox. If the user is not logged in, the Queue button will also launch the lightbox. 
