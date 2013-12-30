@@ -7,7 +7,7 @@ overview: true
 
 You can have a "WatcH This Movie" tab righ on your movie's Facebook page: 
 
-*screenshot*
+![example facebook tab](screenshots/onlyGodForgivesFacebookTab.png)
 
 To add the button, perform the following:
 
