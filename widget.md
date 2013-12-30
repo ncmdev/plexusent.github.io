@@ -54,7 +54,7 @@ By default the widget will have an orange "Watch It" button on top of a yellow "
 ![regular button](/screenshots/regularstackedbutton.jpg)
 
 #### Horizontal Layout
-If you add `&horizontal` to the end of the Javascript URL, you can a side-by-side version of the widget:
+If you add `&horizontal` to the end of the Javascript URL, you will get a side-by-side version of the widget:
 
 ![horizontal button](/screenshots/horizontalbutton.jpg)
 

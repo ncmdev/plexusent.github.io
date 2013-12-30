@@ -4,13 +4,13 @@ title: GoWatchIt SDK
 overview: true
 ---
 # Trailer Widget
-Off the shelf, the widget injects a trailer, availability data and quick alerts directly into the page. 
+Off the shelf, the widget injects a trailer, availability data, and quick alerts directly into the page. 
 
 ![ad unit](screenshots/trailerUnit.png)
 
 ## Features:
 
-* Trailer: You can specify any Youtube (or potentially another player platform) video. 
+* Trailer: You can specify any YouTube (or potentially another player platform) video. 
 
 * Availabilities: Users can see which services a movie is currenlty playing on. The availabilities automatically update in real time so you don't have to do it. 
 
@@ -18,13 +18,13 @@ Off the shelf, the widget injects a trailer, availability data and quick alerts 
 
 * Tracking: We track aggregate status, such as how many users saw a button, vs how many clicked on it. We can also track things like which providers the users clicked on, and even if they purchased something. If users queue a movie, get a notification months later, and purchase that film, we can track the origin of that transaction back to your website. 
 
-* Responsive: The widget will adapt to any screensize/layout. The same code can be user for mobile and desktop web.
+* Responsive: The widget will adapt to any screensize/layout. The same code can be used for mobile and desktop web.
 
 ## Implementation: 
 
 You include a piece of HTML, a standard Javascript snippet, and some optional programatic parameters. 
 
-First include the following bit of JS anywhere on the page. For best performance include it at the bottom, just before the close body tag, otherwise it must come *after* the last gwi-holder div: 
+First include the following bit of JS after the last gwi-holder div. For best performance include it at the bottom. 
 ```
 <script type="text/javascript">
 var gwi = gwi || {};
