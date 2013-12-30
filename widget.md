@@ -8,7 +8,7 @@ FORMAT: 1A
 HOST: http://gowatchit.com
 
 # GWI Widget
-Off the shelf, the widget injects the WatchIt and a Queue buttons onto the page. Clicking the button popups a lightbox with the features specified below. 
+Off the shelf, the widget injects the WatchIt and Queue buttons onto the page. Clicking the button popups a lightbox with the features specified below. 
 
 
 ### Features:
@@ -69,7 +69,7 @@ If you add `&horizontal` to the end of the Javascript URL, you can a side-by-sid
 
 You can supply your own css to replace the images used in the buttons, which are actually just background CSS images. (We can supply you with the original PSD to base your own images off of). There are three button images: Watchit, Queue It, and In Queue. The first two should have a "hover" state image as well, to indicate clickability.
 
-![Custom CSS button](/screenshots/customCSS.png) ![Custom CSS button in queue](/screenshots/customCSSinqueue.png)
+![Custom CSS button](/screenshots/CustomCSS.png) ![Custom CSS button in queue](/screenshots/CustomCSSinqueue.png)
 
 Using the below CSS as a template you can replace the default button image with your own. For example: 
 
