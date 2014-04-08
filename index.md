@@ -11,14 +11,14 @@ The SDK is a flexible set of tools which allow you to leverage GWI functionality
 * Queue
 * Notifications 
 
-You can use these components in mobile apps, websites, facebook pages, etc. You are meant to use as much or as little of our toolkit as you'd like, all the components are meant to work together, no component necessarily precludes the usage of another. 
+You can use these components in mobile apps, websites, Facebook pages, etc. You are meant to use as much or as little of our toolkit as you'd like, all the components are meant to work together, no component necessarily precludes the usage of another. 
 
 Checkout our website for more info: [GoWatchIt.com](http://gowatchit.com)
 
 ### The Widget
-This is the quickest way to leverage the GWI functionality off the shelf. You can do this with little to no development experience. You can put a GWI button and/or queue botton on any web page, and it can be as simple as pasting a small bit of Javascript into a CMS or blog system. 
+This is the quickest way to leverage the GWI functionality off the shelf. You can do this with little to no development experience. You can put a GWI button and/or queue button on any web page, and it can be as simple as pasting a small bit of Javascript into a CMS or blog system. 
 
-By default, when the GWI button is clicked, it displays a lightbox with movie availabilities, as well as queue and quick alerts functinality. You can easily skin/customize the display of the buttons. 
+By default, when the GWI button is clicked, it displays a lightbox with movie availabilities, as well as queue and quick alerts functionality. You can easily skin/customize the display of the buttons. 
 
 Read the [Widget Documentation](/widget.html) for more info.
 
@@ -37,7 +37,7 @@ We have a RESTFul JSON based API. You can use this API to display movie availabi
 Read the [API Documentation](http://docs.gowatchit.apiary.io/) for more info.
 
 ### Facebook Page
-You can have the GWI Widget show up on your facebook page. It will have availabilities, queue and quick alerts functionality. It is more deeply integrated into facebook, making signup faster for the user.  
+You can have the GWI Widget show up on your Facebook page. It will have availabilities, queue and quick alerts functionality. It is more deeply integrated into Facebook, making signup faster for the user.  
 
 Read the [Facebook Page Documentation](/facebook.html).
 
