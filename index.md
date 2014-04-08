@@ -13,7 +13,7 @@ The SDK is a flexible set of tools which allow you to leverage GWI functionality
 
 You can use these components in mobile apps, websites, Facebook pages, etc. You are meant to use as much or as little of our toolkit as you'd like, all the components are meant to work together, no component necessarily precludes the usage of another. 
 
-Checkout our website for more info: [GoWatchIt.com](http://gowatchit.com)
+Check out our website for more info: [GoWatchIt.com](http://gowatchit.com)
 
 ### The Widget
 This is the quickest way to leverage the GWI functionality off the shelf. You can do this with little to no development experience. You can put a GWI button and/or queue button on any web page, and it can be as simple as pasting a small bit of Javascript into a CMS or blog system. 
